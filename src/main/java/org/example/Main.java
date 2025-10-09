@@ -12,7 +12,7 @@ public class Main {
         System.out.println(list);
         list.addFirst(172);
         System.out.println(list);
-        if (list.contains(172)) {
+        if (list.contains(20)) {
             System.out.println("172 найдено в списке");
         }
         System.out.println("Элементов в списке: " + list.size());
@@ -21,8 +21,11 @@ public class Main {
         list.deleteByIndex(0);
         System.out.println(list);
         System.out.println(list.get(2));
+        list.deleteLast();
+        System.out.println(list);
 
         list.clear();
         System.out.println(list);
+
     }
 }

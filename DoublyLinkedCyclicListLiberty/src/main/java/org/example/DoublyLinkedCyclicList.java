@@ -2,7 +2,7 @@ package org.example;
 import java.util.NoSuchElementException;
 
 
-public class DoublyLinkedCyclicList<T> {
+public class DoublyLinkedCyclicList<T> implements LinkedCyclicList<T>{
     private Node<T> head;
     private int size;
 

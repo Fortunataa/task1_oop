@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class DoublyLinkedCyclicListTest {
 
-    private DoublyLinkedCyclicList<Integer> list;
+    private LinkedCyclicList<Integer> list;
 
     @BeforeEach
     void setUp() {

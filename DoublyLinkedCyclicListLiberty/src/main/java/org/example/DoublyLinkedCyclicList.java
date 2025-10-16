@@ -259,4 +259,14 @@ public class DoublyLinkedCyclicList<T> {
         sb.append(")");
         return sb.toString();
     }
+
+    public T getFirst() {
+        if (head == null) throw new IllegalStateException("List is empty");
+        return head.data;
+    }
+
+    public T getLast() {
+        if (head == null) throw new IllegalStateException("List is empty");
+        return head.prev.data;
+    }
 }

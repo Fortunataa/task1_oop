@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48167090-d99e-427e-a44a-58189732c5a5" name="Changes" comment="Последние изменения">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/src/test/java/org/example/DoublyLinkedCyclicListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/src/main/java/org/example/DoublyLinkedCyclicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/src/main/java/org/example/DoublyLinkedCyclicList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,8 @@
     "Application.ConsoleApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Unnamed.executor": "Run",
+    "JUnit.All in DoublyLinkedCyclycLictLiberty.executor": "Run",
+    "JUnit.DoublyLinkedCyclicListTest.executor": "Run",
     "Maven.task_oop [clean].executor": "Run",
     "Maven.task_oop [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,7 +62,8 @@
     "onboarding.tips.debug.path": "C:/Users/Kassandra/Desktop/Tasks/task_oop/ConsoleApp/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -78,7 +78,7 @@
       <recent name="C:\Users\Kassandra\Desktop\Tasks\task_oop" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in DoublyLinkedCyclycLictLiberty">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ConsoleApp" />
       <module name="ConsoleApp" />
@@ -86,6 +86,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in DoublyLinkedCyclycLictLiberty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DoublyLinkedCyclycLictLiberty" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedCyclicListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DoublyLinkedCyclycLictLiberty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DoublyLinkedCyclicListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in DoublyLinkedCyclycLictLiberty" />
+        <item itemvalue="JUnit.DoublyLinkedCyclicListTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -144,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760595084553</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Последние изменения">
+      <option name="closed" value="true" />
+      <created>1760634544340</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760634544340</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +200,7 @@
     <MESSAGE value="Проверка работы списка" />
     <MESSAGE value="Двусвязный циклический список" />
     <MESSAGE value="Консольное приложение" />
-    <option name="LAST_COMMIT_MESSAGE" value="Консольное приложение" />
+    <MESSAGE value="Последние изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Последние изменения" />
   </component>
 </project>

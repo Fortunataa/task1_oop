@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48167090-d99e-427e-a44a-58189732c5a5" name="Changes" comment="Последние изменения">
-      <change afterPath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/src/test/java/org/example/DoublyLinkedCyclicListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/src/main/java/org/example/DoublyLinkedCyclicList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DoublyLinkedCyclicListLiberty/src/main/java/org/example/DoublyLinkedCyclicList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/src/main/java/org/example/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/src/main/java/org/example/ConsoleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <recent name="C:\Users\Kassandra\Desktop\Tasks\task_oop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in DoublyLinkedCyclycLictLiberty">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ConsoleApp" />
       <module name="ConsoleApp" />
@@ -111,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in DoublyLinkedCyclycLictLiberty" />
         <item itemvalue="JUnit.DoublyLinkedCyclicListTest" />
+        <item itemvalue="JUnit.All in DoublyLinkedCyclycLictLiberty" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760634544340</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Последние изменения">
+      <option name="closed" value="true" />
+      <created>1760636795846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760636795846</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

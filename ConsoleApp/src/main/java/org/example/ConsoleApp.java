@@ -81,6 +81,12 @@ public class ConsoleApp {
                 case 12:
                     showInformationList(list);
                     break;
+                case 13:
+                    getFirst(list);
+                    break;
+                case 14:
+                    getLast(list);
+                    break;
                 case 0:
                     System.out.println("Возврат к выбору типа");
                     return;
@@ -234,6 +240,22 @@ public class ConsoleApp {
         System.out.println("Размер списка: " + list.size());
     }
 
+    private static <T> void getFirst(DoublyLinkedCyclicList<T> list) {
+        try {
+            System.out.println("Первый элемент:" + list.getFirst());
+        } catch (Exception e) {
+            System.out.println("Ошибка: " + e.getMessage());
+        }
+    }
+
+    private static <T> void getLast(DoublyLinkedCyclicList<T> list) {
+        try {
+            System.out.println("Последний элемент:" + list.getLast());
+        } catch (Exception e) {
+            System.out.println("Ошибка: " + e.getMessage());
+        }
+    }
+
     private static void showMenu() {
         System.out.println("\n====== МЕНЮ =======");
         System.out.println("1. Добавить элемент");
@@ -248,6 +270,8 @@ public class ConsoleApp {
         System.out.println("10. Проверить наличие элемента");
         System.out.println("11. Очистить список");
         System.out.println("12. Показать информацию о списке");
+        System.out.println("13. Получить первый элемент списка");
+        System.out.println("14. Получить последний элемент списка");
         System.out.println("0. Выбрать другой тип данных");
         System.out.print("Выберите действие: ");
     }

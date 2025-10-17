@@ -35,7 +35,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void operations(Class<T> type, String typeName) {
+    public static <T> void operations(Class<T> type, String typeName) {
         LinkedCyclicList<T> list = new DoublyLinkedCyclicList<>();
         System.out.println("\n=== Работа со списком " + typeName + " ===");
 
@@ -96,7 +96,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void addElement(LinkedCyclicList<T> list, Class<T> type) {
+    public static <T> void addElement(LinkedCyclicList<T> list, Class<T> type) {
         try {
             System.out.print("Введите значение: ");
             String input = scanner.nextLine();
@@ -108,7 +108,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void addElementByIndex(LinkedCyclicList<T> list, Class<T> type) {
+    public static <T> void addElementByIndex(LinkedCyclicList<T> list, Class<T> type) {
         try {
             System.out.print("Введите индекс: ");
             int index = scanner.nextInt();
@@ -123,7 +123,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void addFirstElement(LinkedCyclicList<T> list, Class<T> type) {
+    public static <T> void addFirstElement(LinkedCyclicList<T> list, Class<T> type) {
         try {
             System.out.print("Введите значение: ");
             String input = scanner.nextLine();
@@ -135,7 +135,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> T parseValue(String input, Class<T> type) {
+    public static <T> T parseValue(String input, Class<T> type) {
         if (type == Integer.class) {
             return type.cast(Integer.parseInt(input));
         } else if (type == String.class) {
@@ -148,7 +148,7 @@ public class ConsoleApp {
         throw new IllegalArgumentException("Неподдерживаемый тип: " + type.getSimpleName());
     }
 
-    private static <T> void deleteFirstElement(LinkedCyclicList<T> list) {
+    public static <T> void deleteFirstElement(LinkedCyclicList<T> list) {
         try {
             list.deleteFirst();
             System.out.println("Первый элемент удален");
@@ -157,7 +157,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void deleteLast(LinkedCyclicList<T> list) {
+    public static <T> void deleteLast(LinkedCyclicList<T> list) {
         try {
             list.deleteLast();
             System.out.println("Последний элемент удален");
@@ -166,7 +166,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void deleteElement(LinkedCyclicList<T> list, Class<T> type) {
+    public static <T> void deleteElement(LinkedCyclicList<T> list, Class<T> type) {
         try {
             System.out.print("Введите значение для удаления: ");
             String input = scanner.nextLine();
@@ -178,7 +178,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void deleteByIndex(LinkedCyclicList<T> list) {
+    public static <T> void deleteByIndex(LinkedCyclicList<T> list) {
         try {
             System.out.print("Введите индекс: ");
             int index = scanner.nextInt();
@@ -190,7 +190,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void getByIndex(LinkedCyclicList<T> list) {
+    public static <T> void getByIndex(LinkedCyclicList<T> list) {
         try {
             System.out.print("Введите индекс: ");
             int index = scanner.nextInt();
@@ -202,7 +202,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void findIndex(LinkedCyclicList<T> list, Class<T> type) {
+    public static <T> void findIndex(LinkedCyclicList<T> list, Class<T> type) {
         try {
             System.out.print("Введите значение для поиска: ");
             String input = scanner.nextLine();
@@ -218,7 +218,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void checkContains(LinkedCyclicList<T> list, Class<T> type) {
+    public static <T> void checkContains(LinkedCyclicList<T> list, Class<T> type) {
         try {
             System.out.print("Введите значение для проверки: ");
             String input = scanner.nextLine();
@@ -230,17 +230,17 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void clearList(LinkedCyclicList<T> list) {
+    public static <T> void clearList(LinkedCyclicList<T> list) {
         list.clear();
         System.out.println("Список очищен!");
     }
 
-    private static <T> void showInformationList(LinkedCyclicList<T> list) {
+    public static <T> void showInformationList(LinkedCyclicList<T> list) {
         System.out.println("Текущий список: " + list);
         System.out.println("Размер списка: " + list.size());
     }
 
-    private static <T> void getFirst(LinkedCyclicList<T> list) {
+    public static <T> void getFirst(LinkedCyclicList<T> list) {
         try {
             System.out.println("Первый элемент:" + list.getFirst());
         } catch (Exception e) {
@@ -248,7 +248,7 @@ public class ConsoleApp {
         }
     }
 
-    private static <T> void getLast(LinkedCyclicList<T> list) {
+    public static <T> void getLast(LinkedCyclicList<T> list) {
         try {
             System.out.println("Последний элемент:" + list.getLast());
         } catch (Exception e) {
@@ -256,7 +256,7 @@ public class ConsoleApp {
         }
     }
 
-    private static void showMenu() {
+    public static void showMenu() {
         System.out.println("\n====== МЕНЮ =======");
         System.out.println("1. Добавить элемент");
         System.out.println("2. Добавить элемент по индексу");
